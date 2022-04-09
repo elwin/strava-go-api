@@ -8,7 +8,7 @@
  */
 package strava
 
-type MetaAthlete struct {
-	// The unique identifier of the athlete
-	Id int64 `json:"id,omitempty"`
+type IdStarredBody struct {
+	// If true, star the segment; if false, unstar the segment.
+	Starred bool `json:"starred"`
 }
